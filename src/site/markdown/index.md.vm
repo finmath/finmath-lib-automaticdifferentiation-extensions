@@ -11,6 +11,8 @@ This project implements a [stochastic automatic differentiation](http://ssrn.com
 
 The implementation is fast, memory efficient and thread safe. It handles automatic differentiation of the conditional expectation (American Monte-Carlo), see http://ssrn.com/abstract=3000822.
 
+**Note:** Starting with finmath-lib 3.3.0 this project is integrated into [finmath-lib](http://finmath.net/finmath-lib). Future development will be conducted as part of [finmath-lib](http://finmath.net/finmath-lib). See
+
 The project extends [finmath lib](http://finmath.net/finmath-lib) by
 providing an interface <code>RandomVariableDifferentiableInterface</code>
 for random variables which provide automatic differentiation.
